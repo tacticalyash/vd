@@ -1,0 +1,151 @@
+
+.payment-container {
+    text-align: left;
+    padding: 2px;
+    overflow: auto;
+  }
+  
+  .yoga-teacher-image {
+    width: 20%;
+    height: 10%;
+    margin-top: 10px;
+    
+  }
+  .yoga-teacher-image,
+.yoga-image {
+    width: 17%; 
+    height: 10%; 
+    margin: 0 1%; 
+}
+
+.yoga-images-container {
+    display: flex; 
+}
+  
+  .plan-change-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .change-plan-btn {
+    
+    background: #ff4081; 
+    color: #fff;
+    padding: 1px 6px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px; 
+    line-height: 5px; 
+  }
+  
+  .price-text {
+    font-size: 18px;
+    color:  #006400;
+  }
+  
+  .date-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+
+ 
+  .date-button {
+    border: 1px solid #ccc;
+    padding: 1px 20px; 
+    margin: 4px; 
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 10px; 
+  }
+  .time-slot-btn h4 img {
+    margin-right: 5px; 
+  }
+
+
+.date-button:hover {
+  background-color: #ffc0cb; 
+}
+
+
+
+  
+
+.time-slot-btn {
+  border: 1px solid #ccc;
+  padding: 1px; 
+  margin: 3px; 
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+  font-size: 10px; 
+}
+
+
+.time-slot-btn:hover {
+  background-color: #ffc0cb; 
+}
+
+  
+  
+  .scrollable-container {
+    height: auto; 
+    overflow-y: auto; 
+  }
+
+  .date-button:active,
+.time-slot-btn:active {
+  background-color: #ff66b2;
+  color: white; 
+}
+.date-button.selected {
+  background-color: #ff66b2; 
+  color: white; 
+}
+.change-plan {
+  background: #ff4081; 
+  color: #fff;
+  padding: 1px 1px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 5px; 
+}
+.buy-package {
+  background: #ff4081;
+  color: #fff;
+  padding: 10px 10px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px; 
+  margin-left: auto;
+}
+.buy-package:hover {
+  background: #d81b60; 
+}
+.gif-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.8); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 00; 
+}
+
+.gif-overlay img {
+  max-width: 60%;
+  max-height: 60%;
+}

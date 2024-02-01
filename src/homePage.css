@@ -1,0 +1,78 @@
+
+
+.home-page-container {
+    padding: 130px;
+  }
+  
+  .yoga-for-mind-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .yoga-paragraph {
+    width: 40%;
+  }
+  
+  .yoga-video {
+    width: 32.8%;
+    height: auto;
+  }
+  
+  .for-you-section {
+    margin-bottom: 20px;
+    color: aqua;
+  }
+  
+  .horizontal-contents {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .rose-btn {
+    background: #ff4081; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rose-btn:hover {
+    background: #d81b60; 
+  }
+  
+
+ 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    margin: 10px;
+  }
+  
+  .content img,
+  .content svg {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-color: #808080; 
+    padding: 10px; 
+  }
+  
+  
+  .content img,
+  .content svg {
+    display: block;
+    margin: 0 auto;
+  }
+  
